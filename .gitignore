@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches and test tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Generated negotiation and evaluation outputs
+transcripts/
+docs/results.md
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
